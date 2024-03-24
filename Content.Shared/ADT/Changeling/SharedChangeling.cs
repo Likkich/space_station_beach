@@ -23,11 +23,6 @@ public sealed partial class MuteStingEvent : EntityTargetActionEvent
 public sealed partial class DrugStingEvent : EntityTargetActionEvent
 {
 }
-
-public sealed partial class TransformationStingEvent : EntityTargetActionEvent
-{
-}
-
 public sealed partial class LingEggActionEvent : EntityTargetActionEvent
 {
 }
@@ -42,10 +37,6 @@ public sealed partial class LingEggDoAfterEvent : SimpleDoAfterEvent
 {
 }
 
-[Serializable, NetSerializable]
-public sealed partial class BiodegradeDoAfterEvent : SimpleDoAfterEvent
-{
-}
 public sealed partial class ChangelingEvolutionMenuActionEvent : InstantActionEvent
 {
 }
@@ -115,12 +106,5 @@ public sealed partial class LingEggSpawnActionEvent : InstantActionEvent
 }
 
 public sealed partial class LingHatchActionEvent : InstantActionEvent
-{
-}
-public sealed partial class LingBiodegradeActionEvent : InstantActionEvent
-{
-}
-
-public sealed partial class LingResonantShriekEvent : InstantActionEvent
 {
 }

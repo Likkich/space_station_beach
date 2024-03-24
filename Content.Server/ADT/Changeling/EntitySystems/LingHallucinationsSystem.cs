@@ -87,17 +87,15 @@ public sealed partial class LingHallucinationsSystem : EntitySystem
                 var newCoords = Transform(ent).MapPosition.Offset(_random.NextVector2(stat.Range));
 
                 var hallucination = Spawn(_random.Pick(stat.Spawns), newCoords);
-                EnsureComp<VisibilityComponent>(hallucination, out var visibility);
-                _visibilitySystem.SetLayer(hallucination, visibility, (int) stat.Layer, false);
-                _visibilitySystem.RefreshVisibility(hallucination, visibilityComponent: visibility);
+                EnsureComp<LingHallucinationComponent>(hallucination, out var visibility);
+                visibility.Layer = stat.Layer;
             }
 
             var uidnewCoords = Transform(uid).MapPosition.Offset(_random.NextVector2(stat.Range));
 
             var uidhallucination = Spawn(_random.Pick(stat.Spawns), uidnewCoords);
-            EnsureComp<VisibilityComponent>(uidhallucination, out var uidvisibility);
-            _visibilitySystem.SetLayer(uidhallucination, uidvisibility, (int) stat.Layer, false);
-            _visibilitySystem.RefreshVisibility(uidhallucination, visibilityComponent: uidvisibility);
+            EnsureComp<LingHallucinationComponent>(uidhallucination, out var uidvisibility);
+            uidvisibility.Layer = stat.Layer;
         }
     }
 }

@@ -4,7 +4,7 @@ ent-ADTClothingOuterHardsuitCybersunBodyGuard = скафандр телохра�
 ent-ADTClothingOuterHardsuitNanoScale = нано-чешуйчатая броня
     .desc = Рептилии не настолько примитивны, как вы считали
     .suffix = { "" }
-
+    
 ent-ADTClothingOuterHardsuitNanoScaleChameleon = нано-чешуйчатая броня Хамелеон
     .desc = Очень скрытно и очень пахнет сахаром
     .suffix = { "" }
@@ -53,39 +53,3 @@ ent-ADTClothingOuterHardsuitPioneerAgent = боевой скафандр аге�
 ent-ADTClothingHeadHelmetHardsuitPioneerAgent = шлем скафандра агента "Пионер"
     .desc = Хорошо защищенный шлем, созданный на основе шлема командира ОБР для специального агента КиберСан.
     .suffix = { "" }
-
-
-ent-ADTClothingOuterHardsuitSecurityModern = Похоже - это скафандр
-    .desc = Выглядит как - скафандр...
-    .suffix = { "Дарк" }
-
-ent-ADTClothingHeadHelmetHardsuitSecurity = Это шлем
-    .desc = Выглядит как - шлем...
-    .suffix = { "Дарк" }
-
-ent-ADTClothingOuterHardsuitSecurityModernBlue = {ent-ADTClothingOuterHardsuitSecurityModern}
-    .desc = {ent-ADTClothingOuterHardsuitSecurityModern.desc}
-    .suffix = { "Дарк" }
-
-ent-ADTClothingHeadHelmetHardsuitSecurityBlue = {ent-ADTClothingHeadHelmetHardsuitSecurity}
-    .desc = {ent-ADTClothingHeadHelmetHardsuitSecurity.desc}
-    .suffix = { "Дарк" }
-
-
-ent-ADTClothingOuterHardsuitSecurityModernGreen = {ent-ADTClothingOuterHardsuitSecurityModern}
-    .desc = {ent-ADTClothingOuterHardsuitSecurityModern.desc}
-    .suffix = { "Дарк" }
-
-ent-ADTClothingHeadHelmetHardsuitSecurityGreen = {ent-ADTClothingHeadHelmetHardsuitSecurity}
-    .desc = {ent-ADTClothingHeadHelmetHardsuitSecurity.desc}
-    .suffix = { "Дарк" }
-
-ent-ADTClothingOuterHardsuitSecurityModernPur = {ent-ADTClothingOuterHardsuitSecurityModern}
-    .desc = {ent-ADTClothingOuterHardsuitSecurityModern.desc}
-    .suffix = { "Дарк" }
-
-ent-ADTClothingHeadHelmetHardsuitSecurityPur = {ent-ADTClothingHeadHelmetHardsuitSecurity}
-    .desc = {ent-ADTClothingHeadHelmetHardsuitSecurity.desc}
-    .suffix = { "Дарк" }
-
-

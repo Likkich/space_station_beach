@@ -39,8 +39,6 @@
       - Prying
   - type: ToolTileCompatible
   - type: Prying
-  # - type: TilePrying
-  #   advanced: true
   - type: UseDelay
     delay: 1
   - type: StealTarget
